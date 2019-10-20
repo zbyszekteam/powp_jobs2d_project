@@ -21,6 +21,7 @@ public class DrawerFeature {
 		application.addComponentMenuElement(DrawPanelController.class, "Clear Panel", selectClearPanelOptionListener);
 
 		drawerController.initialize(application.getFreePanel());
+
 	}
 
 	/**
@@ -29,6 +30,7 @@ public class DrawerFeature {
 	 * @return drawPanelController.
 	 */
 	public static DrawPanelController getDrawerController() {
+
 		return drawerController;
 	}
 }
